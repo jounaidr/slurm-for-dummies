@@ -105,7 +105,7 @@ $ sudo nano /var/log/munge/munged.log
 ```
 
 
-That's it! Now, you can go ahead and Setup your worker nodes. Also, for convenience you can now save your `munge.key` located at `/etc/munge/' to an easily accessible location. You will need to copy that key over to the other nodes in the cluster when setting them up. We go over that in detail next.
+That's it! Now, you can go ahead and Setup your worker nodes. Also, for convenience you can now save your `munge.key` located at `/etc/munge/` to an easily accessible location. You will need to copy that key over to the other nodes in the cluster when setting them up. We go over that in detail next.
 
 ### Worker nodes
 For each worker node we follow the same procedure. Similar to the controller node, you first install munge, like so:
